@@ -1,0 +1,166 @@
+*{
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+    outline:0;
+}
+
+@font-face {
+	font-family: Alphakind;
+	src: url(../fonts/Alphakind.ttf)
+}
+.program{
+    background-image: url("img/program-bg.jpg");
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.divPrincipal{
+   
+    background-color:#00000085;
+    min-width:50%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display:flex;
+    flex-wrap:wrap;
+    border-radius: 50px;
+
+    
+}
+
+.divHeader {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 200px;
+    width: 100%;
+    /* flex-wrap: wrap; */
+
+}
+.divHeader h2{
+
+    color:#ffffff;   
+    font-weight: normal;
+    font-size:22px;
+    font-family: 'Righteous', cursive;   
+    
+}
+
+#dotaLogo, #boostLogo{
+    padding:10px
+}
+#dotaLogo {
+    
+    height: 80px;
+    
+
+}
+
+#boostLogo {
+    height: 40%;
+
+}
+
+.divUnderHeader{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.divSection{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.imgBracketAtual{
+    display:flex;
+    width: 33%;
+}
+.imgBracketDesejada{
+    display:flex;
+    width: 33%;
+}
+.resultadoDiv{
+    display:flex;
+    width: 33%;
+}
+
+.divUnderSection{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    padding: 35px;
+
+}
+.divFooter {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    padding: 5px;
+    padding-bottom: 20px;
+
+}
+
+
+.mmrAtualText{
+    font-family: Alphakind;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.445);
+    padding:20px;
+    color:rgb(255, 255, 255);
+}
+.mmrDesejadoText{
+    font-family: Alphakind;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.445);
+    padding:20px;
+    color:rgb(255, 255, 255);
+    margin-left: 200px;
+}
+
+
+#inputMmrDesejado, #inputMmrAtual{
+    padding:15px;
+    border-radius: 10px;
+    border:none;
+    margin-top:15px;
+    text-align: center;
+    width: 25%;
+}
+
+
+
+#buttonCalcular {
+    padding:15px;
+    border-radius: 20px;
+    font-family: Alphakind;
+    font-size:25px;
+    color:#000000;
+    background-color:#F9EDB7;
+    cursor: pointer;
+
+}
+
+#buttonCalcular:hover {
+    
+    color:white;
+    background-color:#978638;
+    
+
+}
+
+#resultado {
+
+    font-family: 'Righteous', cursive;  
+    font-size: 30px;
+    text-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.445);
+    text-align: center;
+    padding:20px;
+    color:rgb(255, 255, 255);
+
+}

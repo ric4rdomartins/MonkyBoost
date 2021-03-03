@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./styleModel.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="center">
+
+            <div class="logo">
+
+                <a href="#"><h2>MonkyBoost</h2></a>
+
+            </div>
+
+            <div class="menu">
+
+                <a href="#">
+                    Como comprar?
+                </a>
+                <a href="#garantia">
+                    Garantia
+                </a>
+                <a href="#testemunhos">
+                    Testemunhos
+                </a>
+                <a class="btnMenu"href="#boost">
+                    Boost please 
+                </a>
+
+            </div>
+            <div class="menuMobile">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            
+
+        </div>
+
+    </header>
+
+    <section class="main">
+        <div class="center">
+            <div class="mainCta">
+                <h2>Cansado de jogar com Monkys?</h2>
+                <p>Você se estressa, pois seu time é um lixo?
+                </p>
+                <p>Nós solucionamos seu problema</p>
+                
+                
+                <button onclick="window.location.href='#boost'" id="garantia">Eu quero</button>
+            </div>
+
+            <div id="testemunhos"class="diferenciais">
+                <div class="diferencial-single">
+
+                    <p> <i class="fas fa-lock"></i></p>
+                    <h2 >SEGURANÇA</h2>
+                    <p>Nosso serviço é um dos mais seguros do mercado.</p>                    
+
+                </div>
+                <div class="diferencial-single">
+
+                    <p ><i class="fas fa-shipping-fast"></i></p>
+                    <h2>AGILIDADE</h2>
+                    <p>Contamos com profissionais qualificados e dedicados.</p>                    
+
+                </div>
+                <div class="diferencial-single">
+
+                    <p ><i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i></p>
+                    <h2>MELHOR PREÇO</h2>
+                    <p>Temos os melhores preços do mercado.</p>                   
+
+                </div>
+                <div class="diferencial-single">
+
+                    <p><i class="far fa-comment-dots"></i></p>
+                    <h2>DISPONIBILIDADE</h2>
+                    <p>Estamos disponíveis para atendimento ou qualquer dúvida.</p>                   
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="sobre">
+        <div class="center">
+            
+
+            <!-- <div class="chamadaSobre">
+                <h2>Testemunhos</h2>
+                <p>Trabalhos desenvolvidos pela nossa equipe.</p>
+
+            </div>
+
+            <div class="conteudoSobre">
+                 <p>Nós somos a melhor empresa do mercado de boost MMR, conte conosco para resolver seus problemas.
+                    Nós somos a melhor empresa do mercado de boost MMR, conte conosco para resolver seus problemas.
+                    Nós somos a melhor empresa do mercado de boost MMR, conte conosco para resolver seus problemas.
+                    <br/>
+                    <span><i class="fas fa-check-double"></i> Item 1 </span>
+                    <span><i class="fas fa-check-double"></i> Item 2 </span>
+                 </p> -->
+
+                 <!-- <p> Nós somos a melhor empresa do mercado de boost MMR, conte conosco para resolver seus problemas.
+                    Nós somos a melhor empresa do mercado de boost MMR, conte conosco para resolver seus problemas.
+                 </p> 
+                 <img src="img/testemunho1.png">
+            </div> -->
+            
+        </div>
+
+    </section>
+
+    <div  id="boost" class="program">
+
+
+        <div class="divPrincipal">
+        
+
+        <div class="divHeader">
+
+                    <!-- <img id="boostLogo" src="img/logo.png"> -->
+                    <h2>MonkyBoost</h2>
+
+                    <img id="dotaLogo" src="img/dotaLogo.png">
+
+        </div>
+
+        <div class="divUnderHeader">
+
+            
+
+            <p class="mmrAtualText">MMR ATUAL</p>
+
+        
+
+        
+
+            <p class="mmrDesejadoText">MMR DESEJADO</p>
+
+        
+
+        </div>
+        
+        <div class="divSection"> 
+            
+            
+            <div class="imgBracketAtual">
+                <img id="imgBracketAtual" src="img/Unrank.png"> 
+            </div>
+
+            <div class="resultadoDiv">
+                <a id="resultado"></a> 
+            </div>
+
+            <div class="imgBracketAtual">
+
+                <img id="imgBracketDesejada"src="img/Unrank.png">
+            </div>
+
+
+
+
+        </div>
+
+        <div class="divUnderSection">
+
+            <input id="inputMmrAtual" type="number" onKeyUp="if(this.value>5019){this.value='5019';}else if(this.value<0){this.value='0';}" placeholder="SEU MMR ATUAL" min="0" max="5020">
+       
+            <input id="inputMmrDesejado" type="number" onKeyUp="if(this.value>5020){this.value='5020';}else if(this.value<1){this.value='1';}" placeholder="SEU MMR DESEJADO" min="1" max="5020">           
+
+        </div>
+
+        
+       
+        <div  class="divFooter">
+
+            
+                <input id="buttonCalcular" type="button" value="CALCULAR">
+
+        </div> 
+
+        </div>
+
+    </div>
+
+
+
+    
+    <footer class="rodape">
+        <div class="socialIcons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-paypal"></i></a>
+        
+        </div>
+
+        <p class="copyright">
+
+            Copyright &copy; PH Dev 2021. Todos os direitos reservados.
+
+        </p>
+    </footer>
+
+        <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <div id="slides">
+           <div id="overflow">
+              <div class="inner">
+                 <div class="slide slide_1">
+                    <div class="slide-content">
+                       <h2>Slide 1</h2>
+                       <p>Content for Slide 1</p>
+                    </div>
+                 </div>
+                 <div class="slide slide_2">
+                    <div class="slide-content">
+                       <h2>Slide 2</h2>
+                       <p>Content for Slide 2</p>
+                    </div>
+                 </div>
+                 <div class="slide slide_3">
+                    <div class="slide-content">
+                       <h2>Slide 3</h2>
+                       <p>Content for Slide 3</p>
+                    </div>
+                 </div>
+                 <div class="slide slide_4">
+                    <div class="slide-content">
+                       <h2>Slide 4</h2>
+                       <p>Content for Slide 4</p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div id="controls">
+           <label for="slide1"></label>
+           <label for="slide2"></label>
+           <label for="slide3"></label>
+           <label for="slide4"></label>
+        </div>
+        <div id="bullets">
+           <label for="slide1"></label>
+           <label for="slide2"></label>
+           <label for="slide3"></label>
+           <label for="slide4"></label>
+        </div>
+     </div>
+     
+    <script src="https://kit.fontawesome.com/4a5d837a8d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
