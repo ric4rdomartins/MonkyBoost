@@ -16,7 +16,7 @@ function calcularPreço(){
     let resultado = document.getElementById("resultado");
 
 
-   if (mmrAtual !== '' && mmrDesejado !== ''){
+   if (mmrAtual !== '' && mmrDesejado !== '' && mmrAtual !== mmrDesejado){
     
     
     let mmrTotal = mmrDesejado - mmrAtual;
